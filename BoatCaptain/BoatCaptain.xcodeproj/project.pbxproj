@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41585B12088DBDB0016AC20 /* leftarrow.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C41585B02088DBDB0016AC20 /* leftarrow.bmp */; };
+		C41585B32088DC010016AC20 /* downarrow.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C41585B22088DC010016AC20 /* downarrow.bmp */; };
+		C41585B52088DC100016AC20 /* rightarrow.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C41585B42088DC100016AC20 /* rightarrow.bmp */; };
+		C41585B72088DC1C0016AC20 /* uparrow.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C41585B62088DC1C0016AC20 /* uparrow.bmp */; };
+		C43C61B521C2BB7A0041EF3E /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = C43C61B421C2BB7A0041EF3E /* house.png */; };
+		C43C61B721C3135A0041EF3E /* xmark.png in Resources */ = {isa = PBXBuildFile; fileRef = C43C61B621C3135A0041EF3E /* xmark.png */; };
+		C43C61B921C313660041EF3E /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = C43C61B821C313660041EF3E /* camera.png */; };
+		C48C826B223000930024CCC1 /* ImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48C826A223000930024CCC1 /* ImgViewController.m */; };
+		C4AF6BF3208E25C000BE5BD6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AF6BF2208E25C000BE5BD6 /* CoreBluetooth.framework */; };
+		C4B280C9208A0D96001110CA /* Captain.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B280C8208A0D96001110CA /* Captain.m */; };
+		C4B280CC208A2153001110CA /* NetworkCaptain.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B280CB208A2153001110CA /* NetworkCaptain.m */; };
+		C4B280CF208A268B001110CA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B280CE208A268B001110CA /* CoreFoundation.framework */; };
+		C4B720132088BA0E00471F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B720122088BA0E00471F51 /* main.m */; };
+		C4B720162088BA0E00471F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B720152088BA0E00471F51 /* AppDelegate.m */; };
+		C4B720192088BA0E00471F51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B720182088BA0E00471F51 /* ViewController.m */; };
+		C4B7201C2088BA0E00471F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B7201A2088BA0E00471F51 /* Main.storyboard */; };
+		C4B7201E2088BA0E00471F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B7201D2088BA0E00471F51 /* Assets.xcassets */; };
+		C4B720212088BA0E00471F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B7201F2088BA0E00471F51 /* LaunchScreen.storyboard */; };
+		C4B7202C2088BA0E00471F51 /* BoatCaptainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7202B2088BA0E00471F51 /* BoatCaptainTests.m */; };
+		C4B720372088BA0E00471F51 /* BoatCaptainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B720362088BA0E00471F51 /* BoatCaptainUITests.m */; };
+		C4C053EF209A896300D638CB /* stopsign.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C4C053EE209A896300D638CB /* stopsign.bmp */; };
+		C4D5FF5C21C1536D005DF73C /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D5FF5B21C1536D005DF73C /* Util.m */; };
+		C4F306DD21C3EEBD00F25764 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F306DC21C3EEBD00F25764 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4B720282088BA0E00471F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B720062088BA0D00471F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B7200D2088BA0D00471F51;
+			remoteInfo = BoatCaptain;
+		};
+		C4B720332088BA0E00471F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B720062088BA0D00471F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B7200D2088BA0D00471F51;
+			remoteInfo = BoatCaptain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C41585B02088DBDB0016AC20 /* leftarrow.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = leftarrow.bmp; path = ../../../BoatCaptain/leftarrow.bmp; sourceTree = "<group>"; };
+		C41585B22088DC010016AC20 /* downarrow.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = downarrow.bmp; path = ../../../BoatCaptain/downarrow.bmp; sourceTree = "<group>"; };
+		C41585B42088DC100016AC20 /* rightarrow.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = rightarrow.bmp; path = ../../../BoatCaptain/rightarrow.bmp; sourceTree = "<group>"; };
+		C41585B62088DC1C0016AC20 /* uparrow.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = uparrow.bmp; path = ../../../BoatCaptain/uparrow.bmp; sourceTree = "<group>"; };
+		C41585B9208959AB0016AC20 /* Captain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Captain.h; sourceTree = "<group>"; };
+		C41585BA20895A5E0016AC20 /* CommandList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandList.h; sourceTree = "<group>"; };
+		C43C61B421C2BB7A0041EF3E /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		C43C61B621C3135A0041EF3E /* xmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xmark.png; sourceTree = "<group>"; };
+		C43C61B821C313660041EF3E /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		C48C8269223000920024CCC1 /* ImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgViewController.h; sourceTree = "<group>"; };
+		C48C826A223000930024CCC1 /* ImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgViewController.m; sourceTree = "<group>"; };
+		C4AF6BF2208E25C000BE5BD6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C4B280C8208A0D96001110CA /* Captain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Captain.m; sourceTree = "<group>"; };
+		C4B280CA208A1FA5001110CA /* NetworkCaptain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkCaptain.h; sourceTree = "<group>"; };
+		C4B280CB208A2153001110CA /* NetworkCaptain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkCaptain.m; sourceTree = "<group>"; };
+		C4B280CE208A268B001110CA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C4B7200E2088BA0E00471F51 /* BoatCaptain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoatCaptain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B720122088BA0E00471F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4B720142088BA0E00471F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4B720152088BA0E00471F51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4B720172088BA0E00471F51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4B720182088BA0E00471F51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4B7201B2088BA0E00471F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4B7201D2088BA0E00471F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4B720202088BA0E00471F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4B720222088BA0E00471F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B720272088BA0E00471F51 /* BoatCaptainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoatCaptainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B7202B2088BA0E00471F51 /* BoatCaptainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoatCaptainTests.m; sourceTree = "<group>"; };
+		C4B7202D2088BA0E00471F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B720322088BA0E00471F51 /* BoatCaptainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoatCaptainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B720362088BA0E00471F51 /* BoatCaptainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoatCaptainUITests.m; sourceTree = "<group>"; };
+		C4B720382088BA0E00471F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C053EE209A896300D638CB /* stopsign.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = stopsign.bmp; sourceTree = "<group>"; };
+		C4D5FF5A21C151E6005DF73C /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		C4D5FF5B21C1536D005DF73C /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		C4F306DC21C3EEBD00F25764 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4B7200B2088BA0D00471F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F306DD21C3EEBD00F25764 /* CoreLocation.framework in Frameworks */,
+				C4AF6BF3208E25C000BE5BD6 /* CoreBluetooth.framework in Frameworks */,
+				C4B280CF208A268B001110CA /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B720242088BA0E00471F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B7202F2088BA0E00471F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4B280CD208A268A001110CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4F306DC21C3EEBD00F25764 /* CoreLocation.framework */,
+				C4AF6BF2208E25C000BE5BD6 /* CoreBluetooth.framework */,
+				C4B280CE208A268B001110CA /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4B720052088BA0D00471F51 = {
+			isa = PBXGroup;
+			children = (
+				C4B720102088BA0E00471F51 /* BoatCaptain */,
+				C4B7202A2088BA0E00471F51 /* BoatCaptainTests */,
+				C4B720352088BA0E00471F51 /* BoatCaptainUITests */,
+				C4B7200F2088BA0E00471F51 /* Products */,
+				C4B280CD208A268A001110CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4B7200F2088BA0E00471F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B7200E2088BA0E00471F51 /* BoatCaptain.app */,
+				C4B720272088BA0E00471F51 /* BoatCaptainTests.xctest */,
+				C4B720322088BA0E00471F51 /* BoatCaptainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4B720102088BA0E00471F51 /* BoatCaptain */ = {
+			isa = PBXGroup;
+			children = (
+				C4B280CA208A1FA5001110CA /* NetworkCaptain.h */,
+				C41585B9208959AB0016AC20 /* Captain.h */,
+				C41585BA20895A5E0016AC20 /* CommandList.h */,
+				C4B720142088BA0E00471F51 /* AppDelegate.h */,
+				C4B720152088BA0E00471F51 /* AppDelegate.m */,
+				C4B720172088BA0E00471F51 /* ViewController.h */,
+				C4B720182088BA0E00471F51 /* ViewController.m */,
+				C41585B02088DBDB0016AC20 /* leftarrow.bmp */,
+				C4C053EE209A896300D638CB /* stopsign.bmp */,
+				C41585B22088DC010016AC20 /* downarrow.bmp */,
+				C41585B62088DC1C0016AC20 /* uparrow.bmp */,
+				C41585B42088DC100016AC20 /* rightarrow.bmp */,
+				C43C61B421C2BB7A0041EF3E /* house.png */,
+				C43C61B621C3135A0041EF3E /* xmark.png */,
+				C43C61B821C313660041EF3E /* camera.png */,
+				C4B7201A2088BA0E00471F51 /* Main.storyboard */,
+				C4B7201D2088BA0E00471F51 /* Assets.xcassets */,
+				C4B7201F2088BA0E00471F51 /* LaunchScreen.storyboard */,
+				C4B720222088BA0E00471F51 /* Info.plist */,
+				C4B720112088BA0E00471F51 /* Supporting Files */,
+				C4B280C8208A0D96001110CA /* Captain.m */,
+				C4B280CB208A2153001110CA /* NetworkCaptain.m */,
+				C4D5FF5A21C151E6005DF73C /* Util.h */,
+				C4D5FF5B21C1536D005DF73C /* Util.m */,
+				C48C8269223000920024CCC1 /* ImgViewController.h */,
+				C48C826A223000930024CCC1 /* ImgViewController.m */,
+			);
+			path = BoatCaptain;
+			sourceTree = "<group>";
+		};
+		C4B720112088BA0E00471F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B720122088BA0E00471F51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4B7202A2088BA0E00471F51 /* BoatCaptainTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4B7202B2088BA0E00471F51 /* BoatCaptainTests.m */,
+				C4B7202D2088BA0E00471F51 /* Info.plist */,
+			);
+			path = BoatCaptainTests;
+			sourceTree = "<group>";
+		};
+		C4B720352088BA0E00471F51 /* BoatCaptainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4B720362088BA0E00471F51 /* BoatCaptainUITests.m */,
+				C4B720382088BA0E00471F51 /* Info.plist */,
+			);
+			path = BoatCaptainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4B7200D2088BA0D00471F51 /* BoatCaptain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B7203B2088BA0E00471F51 /* Build configuration list for PBXNativeTarget "BoatCaptain" */;
+			buildPhases = (
+				C4B7200A2088BA0D00471F51 /* Sources */,
+				C4B7200B2088BA0D00471F51 /* Frameworks */,
+				C4B7200C2088BA0D00471F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoatCaptain;
+			productName = BoatCaptain;
+			productReference = C4B7200E2088BA0E00471F51 /* BoatCaptain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4B720262088BA0E00471F51 /* BoatCaptainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B7203E2088BA0E00471F51 /* Build configuration list for PBXNativeTarget "BoatCaptainTests" */;
+			buildPhases = (
+				C4B720232088BA0E00471F51 /* Sources */,
+				C4B720242088BA0E00471F51 /* Frameworks */,
+				C4B720252088BA0E00471F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B720292088BA0E00471F51 /* PBXTargetDependency */,
+			);
+			name = BoatCaptainTests;
+			productName = BoatCaptainTests;
+			productReference = C4B720272088BA0E00471F51 /* BoatCaptainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4B720312088BA0E00471F51 /* BoatCaptainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B720412088BA0E00471F51 /* Build configuration list for PBXNativeTarget "BoatCaptainUITests" */;
+			buildPhases = (
+				C4B7202E2088BA0E00471F51 /* Sources */,
+				C4B7202F2088BA0E00471F51 /* Frameworks */,
+				C4B720302088BA0E00471F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B720342088BA0E00471F51 /* PBXTargetDependency */,
+			);
+			name = BoatCaptainUITests;
+			productName = BoatCaptainUITests;
+			productReference = C4B720322088BA0E00471F51 /* BoatCaptainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4B720062088BA0D00471F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Simpson's Helpful Software";
+				TargetAttributes = {
+					C4B7200D2088BA0D00471F51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YM9CPEHVKD;
+						ProvisioningStyle = Automatic;
+					};
+					C4B720262088BA0E00471F51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YM9CPEHVKD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4B7200D2088BA0D00471F51;
+					};
+					C4B720312088BA0E00471F51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YM9CPEHVKD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4B7200D2088BA0D00471F51;
+					};
+				};
+			};
+			buildConfigurationList = C4B720092088BA0D00471F51 /* Build configuration list for PBXProject "BoatCaptain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4B720052088BA0D00471F51;
+			productRefGroup = C4B7200F2088BA0E00471F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4B7200D2088BA0D00471F51 /* BoatCaptain */,
+				C4B720262088BA0E00471F51 /* BoatCaptainTests */,
+				C4B720312088BA0E00471F51 /* BoatCaptainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4B7200C2088BA0D00471F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43C61B921C313660041EF3E /* camera.png in Resources */,
+				C4C053EF209A896300D638CB /* stopsign.bmp in Resources */,
+				C43C61B521C2BB7A0041EF3E /* house.png in Resources */,
+				C41585B32088DC010016AC20 /* downarrow.bmp in Resources */,
+				C41585B12088DBDB0016AC20 /* leftarrow.bmp in Resources */,
+				C41585B72088DC1C0016AC20 /* uparrow.bmp in Resources */,
+				C41585B52088DC100016AC20 /* rightarrow.bmp in Resources */,
+				C4B720212088BA0E00471F51 /* LaunchScreen.storyboard in Resources */,
+				C4B7201E2088BA0E00471F51 /* Assets.xcassets in Resources */,
+				C4B7201C2088BA0E00471F51 /* Main.storyboard in Resources */,
+				C43C61B721C3135A0041EF3E /* xmark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B720252088BA0E00471F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B720302088BA0E00471F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4B7200A2088BA0D00471F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48C826B223000930024CCC1 /* ImgViewController.m in Sources */,
+				C4B280C9208A0D96001110CA /* Captain.m in Sources */,
+				C4B720192088BA0E00471F51 /* ViewController.m in Sources */,
+				C4B280CC208A2153001110CA /* NetworkCaptain.m in Sources */,
+				C4B720162088BA0E00471F51 /* AppDelegate.m in Sources */,
+				C4B720132088BA0E00471F51 /* main.m in Sources */,
+				C4D5FF5C21C1536D005DF73C /* Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B720232088BA0E00471F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B7202C2088BA0E00471F51 /* BoatCaptainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B7202E2088BA0E00471F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B720372088BA0E00471F51 /* BoatCaptainUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4B720292088BA0E00471F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B7200D2088BA0D00471F51 /* BoatCaptain */;
+			targetProxy = C4B720282088BA0E00471F51 /* PBXContainerItemProxy */;
+		};
+		C4B720342088BA0E00471F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B7200D2088BA0D00471F51 /* BoatCaptain */;
+			targetProxy = C4B720332088BA0E00471F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4B7201A2088BA0E00471F51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B7201B2088BA0E00471F51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4B7201F2088BA0E00471F51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B720202088BA0E00471F51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4B720392088BA0E00471F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4B7203A2088BA0E00471F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4B7203C2088BA0E00471F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YM9CPEHVKD;
+				INFOPLIST_FILE = BoatCaptain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpsonshelpful.ios.BoatCaptain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4B7203D2088BA0E00471F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YM9CPEHVKD;
+				INFOPLIST_FILE = BoatCaptain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpsonshelpful.ios.BoatCaptain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4B7203F2088BA0E00471F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YM9CPEHVKD;
+				INFOPLIST_FILE = BoatCaptainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpsonshelpful.ios.BoatCaptainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoatCaptain.app/BoatCaptain";
+			};
+			name = Debug;
+		};
+		C4B720402088BA0E00471F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YM9CPEHVKD;
+				INFOPLIST_FILE = BoatCaptainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpsonshelpful.ios.BoatCaptainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoatCaptain.app/BoatCaptain";
+			};
+			name = Release;
+		};
+		C4B720422088BA0E00471F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YM9CPEHVKD;
+				INFOPLIST_FILE = BoatCaptainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpsonshelpful.ios.BoatCaptainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BoatCaptain;
+			};
+			name = Debug;
+		};
+		C4B720432088BA0E00471F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YM9CPEHVKD;
+				INFOPLIST_FILE = BoatCaptainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpsonshelpful.ios.BoatCaptainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BoatCaptain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4B720092088BA0D00471F51 /* Build configuration list for PBXProject "BoatCaptain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B720392088BA0E00471F51 /* Debug */,
+				C4B7203A2088BA0E00471F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B7203B2088BA0E00471F51 /* Build configuration list for PBXNativeTarget "BoatCaptain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B7203C2088BA0E00471F51 /* Debug */,
+				C4B7203D2088BA0E00471F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B7203E2088BA0E00471F51 /* Build configuration list for PBXNativeTarget "BoatCaptainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B7203F2088BA0E00471F51 /* Debug */,
+				C4B720402088BA0E00471F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B720412088BA0E00471F51 /* Build configuration list for PBXNativeTarget "BoatCaptainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B720422088BA0E00471F51 /* Debug */,
+				C4B720432088BA0E00471F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4B720062088BA0D00471F51 /* Project object */;
+}
